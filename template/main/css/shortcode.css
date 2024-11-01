@@ -1,0 +1,290 @@
+#support-genix.support-shortcode a {
+  text-decoration: none;
+}
+#support-genix.support-shortcode .app-g-loader {
+  test-align: center;
+}
+#support-genix.support-shortcode footer.ht_tks_footer {
+  display: none !important;
+}
+
+#support-genix {
+  width: 100%;
+  max-width: 100%;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.support-shortcode .ht_tks_dashboard_header {
+  position: static;
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 1800px) {
+  .support-shortcode .ht_tks_dashboard_conversation_header {
+    padding: 50px 55px 40px 40px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .support-shortcode .ht_tks_dashboard_wrapper.ht_tks_active .ht_tks_dashboard_conversation_header {
+    padding: 50px 55px 40px 40px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .support-shortcode .ht_tks_dashboard_conversation_header {
+    padding: 50px 30px 40px 30px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .support-shortcode .ht_tks_dashboard_conversation_header {
+    padding: 50px 30px 40px 30px;
+  }
+}
+.support-shortcode .ht_tks_dashboard_navbar {
+  width: 100%;
+}
+
+.support-shortcode .ht_tks_dashboard_brand {
+  display: none;
+}
+
+.support-shortcode .ht_tks_dashboard_wrapper {
+  margin-top: 0;
+  overflow: hidden;
+  flex: 1 auto;
+  position: relative;
+}
+
+.support-shortcode .ht_tks_dashboard_left_sidebar {
+  display: none;
+}
+
+.support-shortcode .ht_tks_dashboard_conversation {
+  width: 100%;
+  margin: 0;
+}
+
+.support-shortcode .ht_tks_dashboard_conversation_box::before {
+  display: none;
+}
+
+.support-shortcode .ht_tks_dashboard_conversation_list:last-child {
+  margin-bottom: 0;
+}
+
+.support-shortcode .ht_tks_typing_box {
+  position: static;
+  margin-top: 50px;
+  width: 100% !important;
+}
+
+@media screen and (min-width: 1200px) {
+  .support-shortcode .ht_tks_typing_box {
+    width: 100% !important;
+  }
+}
+@media screen and (min-width: 1800px) {
+  .support-shortcode .ht_tks_typing_box {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .support-shortcode .ht_tks_typing_box {
+    width: 100% !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .support-shortcode .ht_tks_dashboard_wrapper.ht_tks_active .ht_tks_typing_box {
+    width: 100% !important;
+  }
+}
+@media screen and (min-width: 1800px) {
+  .support-shortcode .ht_tks_dashboard_wrapper.ht_tks_active .ht_tks_typing_box {
+    width: 100% !important;
+  }
+}
+.support-shortcode .ht_tks_dashboard_conversation_box {
+  padding-left: 55px;
+}
+
+@media screen and (min-width: 1800px) {
+  .support-shortcode .ht_tks_dashboard_conversation_box {
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .support-shortcode .ht_tks_dashboard_wrapper.ht_tks_active .ht_tks_dashboard_conversation_box {
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+}
+.support-shortcode .ht_tks_dashboard_conversation_box {
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width: 839px) {
+  .support-shortcode .ht_tks_dashboard_conversation_box {
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .support-shortcode .ht_tks_dashboard_conversation_box {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.support-shortcode .ht_tks_scroll {
+  overflow: visible;
+  position: static;
+  margin-top: 0;
+  height: auto;
+  padding-bottom: 30px;
+}
+
+.support-shortcode .ht_tks_badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.support-shortcode .ht_tks_button_groups .ht_tks_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.support-shortcode .index-filter-class.ht_tks_serch_filter .ht_tks_data-pagination-li .ht_tks_data-pagination > span,
+.support-shortcode .index-filter-class.ht_tks_serch_filter .ht_tks_data-pagination-li .ht_tks_data-pagination input,
+.support-shortcode .index-filter-class.ht_tks_serch_filter .ht_tks_data-pagination-li .ht_tks_data-pagination button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.support-shortcode .index-filter-class.ht_tks_serch_filter .ht_tks_data-pagination-li .ht_tks_data-pagination button {
+  opacity: 1;
+  background-color: transparent;
+}
+
+.support-shortcode .ht_tks_typing_form ul li {
+  margin-left: 15px;
+}
+
+.support-shortcode .paperclipe-file {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.support-shortcode .ht_tks_send {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.support-shortcode .ht_tks_send:not(.sending):disabled i {
+  color: #121212;
+}
+
+.support-shortcode .ht_tks_dashboard_right_sidebar {
+  top: 0;
+  height: auto;
+  bottom: 0;
+  z-index: 999;
+  padding-top: 20px;
+  overflow: auto;
+}
+
+.support-shortcode .ht_tks_dashboard_right_sidebar.active .ht_tks_collaps_btn {
+  transform: translatex(100%);
+}
+
+.support-shortcode .ht_tks_collaps_btn {
+  transform: translatex(0);
+  transition: all 0.3s ease 0s;
+}
+
+.support-shortcode .ht_tks_open_btn {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media screen and (min-width: 1200px) {
+  .support-shortcode .ht_tks_form_control {
+    width: 439px;
+    height: 58px;
+  }
+}
+.support-shortcode .ht_tks_form_control {
+  color: #263238;
+  font-size: 14px;
+  padding: 15px 25px;
+  width: 100%;
+  height: 55px;
+  border: 2px solid #e5e5e5;
+  border-radius: 20px;
+}
+
+.support-shortcode .ht_tks_form_control {
+  border-radius: 18px;
+}
+
+.support-shortcode .ht_tks_form_control {
+  padding: 15px 40px 15px 15px;
+}
+
+.support-shortcode .index-filter-class .select.staff-select .multiselect .multiselect-search {
+  height: 100%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .support-shortcode .ht_tks_dashboard_conversation_client_tickets {
+    justify-content: end;
+  }
+}
+.support-shortcode .ht_tks_dashboard_wrapper.ht_tks_active .ht_tks_dashboard_conversation_client_tickets_wraper {
+  margin-right: 40px;
+}
+
+.support-shortcode .ht_tks_dashboard_conversation.active .ht_tks_typing_form .quillWrapper {
+  margin-left: 0px;
+}
+
+.support-shortcode .ht_tks_dashboard_header .ht_tks_dashboard_navbar {
+  width: 100%;
+}
+
+.support-shortcode .ht_tks_registration_form_control {
+  background-color: #f6f6f6;
+  border: 2px solid transparent;
+  padding: 15px 25px;
+  width: 100%;
+  height: 58px;
+  color: #4a4a4a;
+  margin-bottom: 20px;
+  border-radius: 18px;
+  transition: all 0.3s;
+}
+
+.support-shortcode .ht_tks_dashboard_right_sidebar_input_list .email-action-div button,
+.support-shortcode .ht_tks_dashboard_right_sidebar_selects .email-action-div button,
+.support-shortcode .ht_tks_dashboard_right_sidebar_input_list .assign-me-div button,
+.support-shortcode .ht_tks_dashboard_right_sidebar_selects .assign-me-div button,
+.support-shortcode .ht_tks_dashboard_right_sidebar_input_list .close-ticket-button-div button,
+.support-shortcode .ht_tks_dashboard_right_sidebar_selects .close-ticket-button-div button {
+  width: initial;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1460px) {
+  .support-shortcode .ht_tks_dashboard_wrapper.ht_tks_active .ht_tks_dashboard_conversation_client_tickets {
+    margin-top: 0px;
+  }
+}
+
+/*# sourceMappingURL=shortcode.css.map */

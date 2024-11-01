@@ -1,0 +1,15 @@
+@CHARSET "ISO-8859-1";
+#notify-holster {
+  position: fixed;
+  bottom: 30px;
+  top: unset;
+  left: 30px;
+  width: 100%;
+  max-width: 350px;
+  z-index: 99999998;
+}
+#notify-holster .notify.notify-theme-appsbd-left .notify-body-title {
+  font-size: 25px !important;
+}
+
+/*# sourceMappingURL=appsbd-notify.css.map */
